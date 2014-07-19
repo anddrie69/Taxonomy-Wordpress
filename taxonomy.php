@@ -33,7 +33,7 @@ function product_taxo() {
     'publicly_queryable' => true,
     'query_var'         => 'product',
     'capability_type'   => 'post'
-  ));
+  );
 
   register_post_type('product', $args);
 }
